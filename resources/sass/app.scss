@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import "views/login.scss";
+
+$theme-colors: (
+    primary: $red,
+);
+
+.image-logo {
+    width: 10%;
+}
+/* finally, import Bootstrap */
+@import "bootstrap";
